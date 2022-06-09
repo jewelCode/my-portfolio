@@ -1,17 +1,17 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
 import header from '../resources/header.jpg'
+import about from '../resources/about.png'
 
 const About = () => {
     return (
-        <div className="container">
-            <h1 className="text-center">About Me</h1>
-            <div className="row">
-                <div className="col-md-6">
-                    <img className="img-fluid" src={header} alt="" />
+        <div className="container mt-5">
+            <h2 className="text-center fw-bold display-4"><span className="text-danger">About</span> Me</h2>
+            <div className="row d-flex align-items-center">
+                <div className="col-md-6 d-flex justify-content-center text-center">
+                    <img className="img-fluid" src={about} alt="" />
                 </div>
-                <div className="col-md-6">
-                    <h1>Let’s Something Know About Myself</h1>
+                <div className="col-md-6 mt-5 d-flex justify-content-center">
+                    <p className="fs-4">My Name is Jewel Barua. I am a front End Developer. I can make any Kind of web application you need</p>
                 </div>
             </div>
         </div>

@@ -1,10 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
+
 import About from './components/Home/About';
 import Home from './components/Home/Home';
 import Navigation from './components/Shared/Navigation/Navigation';
-
-
 import NoRoute from './components/Shared/NoRoute/NoRoute';
 
 

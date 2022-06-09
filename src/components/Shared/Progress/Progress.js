@@ -6,15 +6,15 @@ const Progress = () => {
     return (
         <div>
             <h2>HTML</h2>
-            <ProgressBar completed={180} maxCompleted={200} />
+            <ProgressBar completed={90} maxCompleted={100} />
             <h2>CSS</h2>
-            <ProgressBar completed={180} maxCompleted={200} />
-            <h2>JAVASCRIPT</h2>
-            <ProgressBar completed={180} maxCompleted={200} />
-            <h2>REACT</h2>
-            <ProgressBar completed={180} maxCompleted={200} />
-            <h2>MONGODB</h2>
-            <ProgressBar completed={180} maxCompleted={200} />
+            <ProgressBar completed={80} maxCompleted={100} />
+            <h2>Bootstrap</h2>
+            <ProgressBar completed={85} maxCompleted={100} />
+            <h2>Javascript</h2>
+            <ProgressBar completed={70} maxCompleted={100} />
+            <h2>React</h2>
+            <ProgressBar completed={75} maxCompleted={100} />
         </div>
     );
 };
