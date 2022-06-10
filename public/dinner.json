@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "name": "Indepentdent Service Provider",
+        "description": "How We dream about our future",
+        "img": "https://i.ibb.co/6Jywdbv/1.png"
+    },
+    {
+        "id": 2,
+        "name": "Warehouse Management",
+        "description": "How We dream about our future",
+        "img":"https://i.ibb.co/qdVJYfy/1.png"
+    },
+    {
+        "id": 3,
+        "name": "Manufacturer Website",
+        "description": "How We dream about our future",
+        "img": "https://i.ibb.co/ngrDvKz/1.png"
+    }
+    
+] 

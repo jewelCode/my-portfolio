@@ -12,7 +12,7 @@ const Navigation = () => {
                     <Nav className="mx-auto">
                         <Nav.Link className="text-danger fw-bold" as={Link} to="/">Home</Nav.Link>
                         <Nav.Link className="text-danger fw-bold" as={Link} to="/about">About</Nav.Link>
-                        <Nav.Link className="text-danger fw-bold" as={Link} to="/about">Projects</Nav.Link>
+                        <Nav.Link className="text-danger fw-bold" as={Link} to="/blogs">Blogs</Nav.Link>
                         <Nav.Link className="text-danger fw-bold" as={Link} to="/about">Portfolio</Nav.Link>
                         <Nav.Link className="text-danger fw-bold" as={Link} to="/about">Contact</Nav.Link>
                     </Nav>
