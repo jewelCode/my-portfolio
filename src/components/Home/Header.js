@@ -1,8 +1,11 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import header from '../resources/header.jpg'
+import './Header.css'
+import { Typewriter } from 'react-simple-typewriter'
 
 const Header = () => {
+
     return (
         <div className="container">
             <div className="row d-flex align-items-center">
