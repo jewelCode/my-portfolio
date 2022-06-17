@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Navigation = () => {
     return (
-        <Navbar fixed="top" bg="dark" variant="dark" expand="lg">
+        <Navbar fixed="top" bg="dark" variant="dark" expand="lg" className="">
             <Container>
                 <Navbar.Brand href="#home" className="text-light fw-bold">Jewel Barua</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

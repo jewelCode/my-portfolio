@@ -2,12 +2,12 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import header from '../resources/header.jpg'
 import './Header.css'
-import { Typewriter } from 'react-simple-typewriter'
+
 
 const Header = () => {
 
     return (
-        <div className="container">
+        <div className="container mt-5">
             <div className="row d-flex align-items-center">
                 <div className="col-md-6">
                     <h1 className="display-1 fw-bold">Hello</h1>
