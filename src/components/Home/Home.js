@@ -6,13 +6,15 @@ import Header from './Header';
 import Projects from './Projects';
 import Skills from './Skills';
 
+
 const Home = () => {
     return (
         <div>
             <Header></Header>
             <About></About>
+            <Skills></Skills>
             <Projects></Projects>
-            <Contact></Contact>
+            
             <Footer></Footer>
         </div>
     );

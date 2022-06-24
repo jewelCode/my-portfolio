@@ -2,6 +2,7 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { Button, Form } from 'react-bootstrap';
 import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import Contact from '../../Home/Contact';
 
 
 
@@ -11,7 +12,8 @@ const Footer = () => {
         return alert("Messege Sent Successfully")
     }
     return (
-        <div className="bg-dark mt-5">
+        <div className="bg-dark mt-3 p-3">
+            <Contact></Contact>
             <div className="container">
                 <div className="row d-flex align-items-center">
                     <div className="col-md-4 col-sm-12 text-light">

@@ -1,5 +1,4 @@
 import React from 'react';
-import header from '../resources/header.jpg'
 import about from '../resources/about.png'
 
 const About = () => {

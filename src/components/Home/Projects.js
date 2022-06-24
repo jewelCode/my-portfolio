@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Card } from 'react-bootstrap';
-import photo from '../resources/header.jpg'
+
 import ProjectDetails from './ProjectDetails';
 
 const Projects = () => {
